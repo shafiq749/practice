@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+#container{
+    display: flex
+}
+#heading{
+    border: 1px solid black;
+}
+#side{
+    flex: .6;
+    border-right: 2px solid yellow;
+    margin-left: 10px;
+}
+#main{
+    flex: 3;
+}
+#mainHeading{
+    display: flex;
+    flex: 3;
+    border: 2px solid blueviolet;
+    justify-content: space-between;
+}
+#side_nav{
+    margin-left: 20px;
+    line-height: 25px;
+}
+#msgcont{
+    border: 2px solid green;
+}
+
+#empty{
+    height: 40px;
+        border-bottom:1px solid red;
+}
+#header{
+    border: 1px solid brown;
+    height: 36px;

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" >
+    <title>Shaban's Site</title>
+</head>
+<body>
+    <div id='container'>
+        <div id="side">
+            <div id="empty"></div>
+            <div id="buttonsA">    
+            <button>Dashboard</button>
+                <button>Stocks</button>
+            </div>
+                <div id="side_nav">
+                <ol>
+                    <li>Exective Summry</li>
+                    <li>Share Price And News</li>
+                    <li>Valuation</li>
+                    <li>Earnings and Revenue  History</li>
+                    <li>Finencing Decisions</li>
+                    <li>Devidned</li>
+                    <li>OwnerShip</li>
+                    <li>Company Information</li>
+                </ol>
+            </div>
+            <div id="butonsB">
+                <button>Portfolio</button>
+                <button>Crypto</button>
+                <button>Discover</button>
+                <button>Top Analyst</button>
+            </div>
+        </div>
+    <div id="main">
+      <div id="header"></div>
+      <div id="mainHeading">
+          <h1 id="heading"><span>3.2</span> Operating Managment</h1>
+          <div id="msgcont"><button id="msg">msg</button></div>
+      </div>
+    </div>
+    </div>
+</body>
+<script>
+ for(var i = 1; i<=6; i++){
+    for(var k=0; k<=(6-i);k++){
+        document.write("*");
+    }
+    for(var j =1;j<=i;j++){
+        document.write('-');
+    }
+    document.write('<br/>')
+ }
+</script>
+</html>
